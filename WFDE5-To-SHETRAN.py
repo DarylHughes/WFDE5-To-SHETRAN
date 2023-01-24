@@ -42,12 +42,12 @@ The user must define:
 
 #%% User-defined variables
 
-FunctionsLibrary    = 'C:/Users/DH/OneDrive - Heriot-Watt University/Documents/HydrosystemsModellerRA/Writing(Shared)/Paper1/Code' # Set to directory containing CustomFunctionsToSHETRAN.py
-DirectoryRaw        = 'C:/Users/DH/OneDrive - Heriot-Watt University/Documents/HydrosystemsModellerRA/HydroModelling/HydroInputData/RainTimeSeries/WFDE5/dataset/' # Set to directory containing raw data. NB string must terminate with '/'
-DataVersion         = 'v2.1'                                                    # Set to data version e.g. 'v2.1'
+FunctionsLibrary    = ''                                                        # Set to directory containing CustomFunctionsToSHETRAN.py
+DirectoryRaw        = ''                                                        # Set to directory containing raw data. NB string must terminate with '/'
+DataVersion         = ''                                                        # Set to data version e.g. 'v2.1'
 ExtIn               = '.nc'                                                     # Set to data extension i.e. '.nc'
-DirectoryClipped    = 'C:/Users/DH/Downloads/'                                  # Set to location for writing clipped data
-DirectoryConcat     = 'C:/Users/DH/Downloads/'                                  # Set to location for writing clipped concatenated data
+DirectoryClipped    = ''                                                        # Set to location for writing clipped data
+DirectoryConcat     = ''                                                        # Set to location for writing clipped concatenated data
 North               = 8.21                                                      # Northern limit of data domain (lat)
 South               = 1.09                                                      # Southern limit of data domain (lat)
 West                = -62.94                                                    # Western limit of data domain (lon)
